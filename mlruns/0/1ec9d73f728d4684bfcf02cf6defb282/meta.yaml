@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/1ec9d73f728d4684bfcf02cf6defb282/artifacts
+end_time: 1687688565914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ec9d73f728d4684bfcf02cf6defb282
+run_name: useful-koi-315
+run_uuid: 1ec9d73f728d4684bfcf02cf6defb282
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687688565863
+status: 3
+tags: []
+user_id: rouna

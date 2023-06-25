@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/3255121ac4ac47d19079286193fdcb94/artifacts
+end_time: 1687679727922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3255121ac4ac47d19079286193fdcb94
+run_name: unleashed-carp-217
+run_uuid: 3255121ac4ac47d19079286193fdcb94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687679727896
+status: 3
+tags: []
+user_id: rouna
