@@ -8,7 +8,7 @@ import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import ElasticNet
 
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, accuracy_score
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, accuracy_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 
 import argparse
@@ -21,14 +21,15 @@ def get_data():
     return df
 
 
-def evaluate_model(y_true,y_pred):
+def evaluate_model(y_true,y_pred, pred_prob):
     '''mae = mean_absolute_error(y_true,y_pred)
     mse = mean_squared_error(y_true,y_pred)
     r2 = r2_score(y_true,y_pred)'''
 
     accu_score = accuracy_score(y_true,y_pred)
+    roc_auc = roc_auc_score(y_true,pred_prob,multi_class='ovr')
 
-    return accu_score
+    return accu_score, roc_auc
 
 
 def main(n_estimators,max_depth):
@@ -43,17 +44,24 @@ def main(n_estimators,max_depth):
     lr.fit(X_train,y_train)
     pred = lr.predict(X_test)'''
 
-    rfe = RandomForestClassifier(n_estimators=n_estimators,max_depth=max_depth)
-    rfe.fit(X_train,y_train)
-    pred = rfe.predict(X_test)
+    with mlflow.start_run():
+        rfe = RandomForestClassifier(n_estimators=n_estimators,max_depth=max_depth)
+        rfe.fit(X_train,y_train)
+        pred = rfe.predict(X_test)
 
+        pred_prob = rfe.predict_proba(X_test)
 
+        #evaluate the model
+        accu_score, roc_auc = evaluate_model(y_test,pred, pred_prob)
 
-    #evaluate the model
-    accu_score = evaluate_model(y_test,pred)
+        mlflow.log_param('n_estimators',n_estimators)
+        mlflow.log_param('max_depth',max_depth)
+        mlflow.log_metric('accu_score',accu_score)
+        mlflow.log_metric('roc_auc',roc_auc)
 
-    #print(f'MAE = {mae}, MSE = {mse}, R-square Value = {r2}')
-    print(f'Accuracy Score is {accu_score}')
+        #print(f'MAE = {mae}, MSE = {mse}, R-square Value = {r2}')
+        print(f'Accuracy Score is {accu_score}')
+        print(f'ROC_AUC Score is {roc_auc}')
 
 
 
