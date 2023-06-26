@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/30b53f4281114999bb5e81b46a3081a5/artifacts
+end_time: 1687764716183
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30b53f4281114999bb5e81b46a3081a5
+run_name: powerful-skink-988
+run_uuid: 30b53f4281114999bb5e81b46a3081a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764709934
+status: 3
+tags: []
+user_id: rouna

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/ce94c15447954cabbc1547b30354a9cd/artifacts
+end_time: 1687764605844
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce94c15447954cabbc1547b30354a9cd
+run_name: indecisive-duck-651
+run_uuid: ce94c15447954cabbc1547b30354a9cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764599434
+status: 3
+tags: []
+user_id: rouna

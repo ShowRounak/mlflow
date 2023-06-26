@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/1c4182a65b5f45ea8214f8a4faee1932/artifacts
+end_time: 1687764692055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c4182a65b5f45ea8214f8a4faee1932
+run_name: judicious-sheep-80
+run_uuid: 1c4182a65b5f45ea8214f8a4faee1932
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764685761
+status: 3
+tags: []
+user_id: rouna

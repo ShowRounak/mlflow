@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/4ebb0f61f0c24df198ba64be72683c29/artifacts
+end_time: 1687764484581
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ebb0f61f0c24df198ba64be72683c29
+run_name: gaudy-shad-463
+run_uuid: 4ebb0f61f0c24df198ba64be72683c29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764479182
+status: 3
+tags: []
+user_id: rouna

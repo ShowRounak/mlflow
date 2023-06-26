@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/99d12aadfc744a9d93e1e9d66c9faf8f/artifacts
+end_time: 1687763563028
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99d12aadfc744a9d93e1e9d66c9faf8f
+run_name: traveling-cub-797
+run_uuid: 99d12aadfc744a9d93e1e9d66c9faf8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687763556666
+status: 3
+tags: []
+user_id: rouna

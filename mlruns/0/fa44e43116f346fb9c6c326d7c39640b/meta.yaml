@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/fa44e43116f346fb9c6c326d7c39640b/artifacts
+end_time: 1687764618361
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa44e43116f346fb9c6c326d7c39640b
+run_name: able-steed-953
+run_uuid: fa44e43116f346fb9c6c326d7c39640b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764611895
+status: 3
+tags: []
+user_id: rouna

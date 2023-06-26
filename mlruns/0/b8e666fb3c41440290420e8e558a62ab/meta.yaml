@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/b8e666fb3c41440290420e8e558a62ab/artifacts
+end_time: 1687764667494
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b8e666fb3c41440290420e8e558a62ab
+run_name: upbeat-frog-737
+run_uuid: b8e666fb3c41440290420e8e558a62ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764661559
+status: 3
+tags: []
+user_id: rouna

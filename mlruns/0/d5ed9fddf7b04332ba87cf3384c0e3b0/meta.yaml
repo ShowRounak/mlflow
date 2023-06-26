@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/d5ed9fddf7b04332ba87cf3384c0e3b0/artifacts
+end_time: 1687764748972
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5ed9fddf7b04332ba87cf3384c0e3b0
+run_name: monumental-ant-497
+run_uuid: d5ed9fddf7b04332ba87cf3384c0e3b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764747611
+status: 4
+tags: []
+user_id: rouna

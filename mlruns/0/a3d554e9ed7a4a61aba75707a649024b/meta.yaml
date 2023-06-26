@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/a3d554e9ed7a4a61aba75707a649024b/artifacts
+end_time: 1687764495906
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3d554e9ed7a4a61aba75707a649024b
+run_name: wise-cow-614
+run_uuid: a3d554e9ed7a4a61aba75707a649024b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764490183
+status: 3
+tags: []
+user_id: rouna

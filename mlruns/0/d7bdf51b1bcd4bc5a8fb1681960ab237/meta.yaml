@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/d7bdf51b1bcd4bc5a8fb1681960ab237/artifacts
+end_time: 1687764581556
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7bdf51b1bcd4bc5a8fb1681960ab237
+run_name: bedecked-ram-733
+run_uuid: d7bdf51b1bcd4bc5a8fb1681960ab237
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764575287
+status: 3
+tags: []
+user_id: rouna

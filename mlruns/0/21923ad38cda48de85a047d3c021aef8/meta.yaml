@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/21923ad38cda48de85a047d3c021aef8/artifacts
+end_time: 1687764741727
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21923ad38cda48de85a047d3c021aef8
+run_name: sassy-dog-402
+run_uuid: 21923ad38cda48de85a047d3c021aef8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764735062
+status: 3
+tags: []
+user_id: rouna

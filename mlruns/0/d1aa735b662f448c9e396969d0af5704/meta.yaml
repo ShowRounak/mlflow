@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/d1aa735b662f448c9e396969d0af5704/artifacts
+end_time: 1687764631033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1aa735b662f448c9e396969d0af5704
+run_name: wistful-elk-679
+run_uuid: d1aa735b662f448c9e396969d0af5704
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764624480
+status: 3
+tags: []
+user_id: rouna

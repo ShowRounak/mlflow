@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/8d57ea6fb7d5469c94b377aab8973de0/artifacts
+end_time: 1687764729101
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d57ea6fb7d5469c94b377aab8973de0
+run_name: gentle-gnat-1000
+run_uuid: 8d57ea6fb7d5469c94b377aab8973de0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764722276
+status: 3
+tags: []
+user_id: rouna

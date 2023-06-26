@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/0a1cec3382304f60b097df1ed39cd74c/artifacts
+end_time: 1687764507611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a1cec3382304f60b097df1ed39cd74c
+run_name: tasteful-squid-558
+run_uuid: 0a1cec3382304f60b097df1ed39cd74c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764501916
+status: 3
+tags: []
+user_id: rouna

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/mlflow/mlruns/0/6bfa3172050549899fa345fafe27fa89/artifacts
+end_time: 1687764519296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bfa3172050549899fa345fafe27fa89
+run_name: defiant-toad-740
+run_uuid: 6bfa3172050549899fa345fafe27fa89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687764513553
+status: 3
+tags: []
+user_id: rouna
